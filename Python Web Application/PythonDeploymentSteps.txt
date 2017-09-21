@@ -1,0 +1,21 @@
+Steps to deploy Python page to Heroku
+1. Create a login
+2. Install Heroku Toolbelt
+3. Set the path for the CLI Heroku and login from the CMD using heroku login
+4. Create an app
+Command heroku create <Name>
+heroku create pythonTest
+5. Create 3 files in the path of the project
+File 1 - requirement.txt (All dependencies contained in the python file)
+5.a Go to the Scripts path in the virtual and run pip freeze
+5.b Put it all in the file directly
+..\virtual\Scripts\pip freeze >requirements.txt
+6. Create an empty file called Procfile. Should not contain an extension
+web: gunicorn WebTest:app
+7. Create a runtime file. Enter the python runtime environment 
+python-3.6.2
+8. Add git file
+9. git commit
+10. Set the git to your heroku
+heroku git:remote --app arvindpyweb
+11. Doing it for the first time, then authenticate git by doing git-config
