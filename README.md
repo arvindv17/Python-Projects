@@ -1,5 +1,5 @@
 # Python-Projects
-This repository contains some simple applications which have been built using Python language. T. The intention of this repo is to build the applications with clean code by following good coding practices and good delivery structure. These real world applications follow a structure and have a scope for enhancement as well. The problem target each and every phase and how python can be a one stop solution to all these applications.
+This repository contains some simple applications which have been built using Python language.The intention of this repo is to build the applications with clean code by following good coding practices and good delivery structure. These real world applications follow a structure and have a scope for enhancement as well. The problem target each and every phase and how python can be a one stop solution to build all these applications.
 
 ### 1. [Python Interactive Dictionary](https://github.com/arvindv17/Python-Projects/tree/master/Python%20Interactive%20Dictionary)
 ### 2. [Python Analysis using WebMaps](https://github.com/arvindv17/Python-Projects/tree/master/Python%20Interactive%20Dictionary)
