@@ -19,3 +19,4 @@ python-3.6.2
 10. Set the git to your heroku
 heroku git:remote --app arvindpyweb
 11. Doing it for the first time, then authenticate git by doing git-config
+12. git push heroku master
